@@ -1,0 +1,30 @@
+{
+    "name": "okami-chen/tms-bill",
+    "type": "library",
+    "keywords": ["laravel","php","bill"],
+    "description": "tms-bill module",
+    "homepage": "https://github.com/okami-chen/tms-bill",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OkamiChen",
+            "email": "x25125x@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "OkamiChen\\TmsBill\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OkamiChen\\TmsBill\\BillServiceProvider"
+            ]
+        }
+    }
+}
